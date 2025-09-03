@@ -41,7 +41,91 @@
     </nav>
 
     <!-- Page Container -->
-  <main id="page-container" class="page-container">
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unk Naveen</title>
+    <style>
+        /* Make the entire page greyish black */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a; /* Greyish black */
+            color: #ffffff; /* White text for visibility */
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Page container */
+        #page-container {
+            min-height: 100vh;
+            background-color: #1a1a1a; /* Same greyish black */
+        }
+
+        /* Hero section */
+        .hero-section {
+            padding: 100px 0;
+            background-color: transparent; /* Matches dark background */
+        }
+
+        /* Hero title gradient */
+        .text-gradient {
+            background: linear-gradient(45deg, #ff0057, #ff7b00);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Hero subtitle */
+        .hero-subtitle {
+            color: #cfcfcf; /* Softer grey */
+            margin-top: 10px;
+            font-size: 1.1rem;
+        }
+
+        /* Hero stats */
+        .hero-stats .stat-item .stat-number {
+            color: #ffffff;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .hero-stats .stat-item .stat-label {
+            color: #bbbbbb; /* Softer grey */
+            font-size: 0.9rem;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 1rem;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .btn--outline {
+            color: #ffffff;
+            border: 2px solid #ff0057;
+            background: transparent;
+        }
+
+        .btn--outline:hover {
+            background-color: #ff0057;
+            color: #ffffff;
+            box-shadow: 0 0 15px #ff0057;
+        }
+
+        /* Floating card glow */
+        .card-glow {
+            background: rgba(255, 0, 87, 0.3);
+            box-shadow: 0 0 30px rgba(255, 0, 87, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <main id="page-container" class="page-container">
         <!-- Home Page -->
         <div id="home-page" class="page active">
             <section class="hero-section">
@@ -56,27 +140,25 @@
                             </p>
                             <div class="hero-stats animate-fade-up delay-400">
                                 <div class="stat-item">
-                                    <span class="stat-number" data-count="3">0</span>
+                                    <span class="stat-number" data-count="3">3</span>
                                     <span class="stat-label">Years Experience</span>
                                 </div>
                                 <div class="stat-item">
-                                    <span class="stat-number" data-count="50">0</span>
+                                    <span class="stat-number" data-count="50">50</span>
                                     <span class="stat-label">Projects Completed</span>
                                 </div>
                                 <div class="stat-item">
-                                    <span class="stat-number" data-count="45">0</span>
+                                    <span class="stat-number" data-count="45">45</span>
                                     <span class="stat-label">Happy Clients</span>
                                 </div>
                             </div>
                             <div class="hero-buttons animate-fade-up delay-600">
-
                                 <a href="https://t.me/unknaveen" target="_blank" class="btn btn--outline glow-hover" data-route="contact">
-    Get In Touch
-</a>
-
+                                    Get In Touch
+                                </a>
                             </div>
                         </div>
-                        
+
                         <div class="hero-visual animate-fade-left">
                             <div class="floating-card">
                                 <div class="card-glow"></div>
@@ -125,7 +207,9 @@
                 </div>
             </section>
         </div>
-
+    </main>
+</body>
+</html>
         <!-- About Page -->
         <div id="about-page" class="page">
             <section class="section">
