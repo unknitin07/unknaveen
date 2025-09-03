@@ -21,13 +21,12 @@ const applicationData = {
   "projects": [
     {
       "id": 1,
-      "title": "EcoTracker Mobile App",
+      "title": "Goa Game",
       "description": "Sustainable living companion app with AI-powered recommendations and community features.",
       "image": "/api/placeholder/400/250",
       "technologies": ["React Native", "Node.js", "MongoDB", "AI/ML"],
-      "demo": "https://demo-link.com",
-      "downloadApk": "https://download-link.com/ecotracker.apk",
-      "category": "Mobile App",
+      "demo": "https://goagamez.netlify.app/",
+      "category": "Landing page",
       "featured": true
     },
     {
