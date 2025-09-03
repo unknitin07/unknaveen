@@ -22,8 +22,9 @@ const applicationData = {
     {
       "id": 1,
       "title": "Goa Game",
-      "description": "Sustainable living companion app with AI-powered recommendations and community features.",
-      "image": "/api/placeholder/400/250",
+      "description": "Gambling site named goa games.",
+      "image": "<img src="https://dummyimage.com/400x250/ffd700/000000&text=⭐+Star" alt="Star Placeholder">
+",
       "technologies": ["React Native", "Node.js", "MongoDB", "AI/ML"],
       "demo": "https://goagamez.netlify.app/",
       "category": "Landing page",
@@ -32,7 +33,7 @@ const applicationData = {
     {
       "id": 2,
       "title": "in 999",
-      "description": "Real-time financial analytics platform with advanced data visualization and automated reporting.",
+      "description": "gambling site named in999.",
       "image": "/api/placeholder/400/250",
       "technologies": ["React", "D3.js", "Express.js", "PostgreSQL"],
       "demo": "https://in9999.netlify.app",
@@ -42,7 +43,7 @@ const applicationData = {
     {
       "id": 3,
       "title": "jalwa game",
-      "description": "Personalized meditation and mindfulness app with progress tracking and community support.",
+      "description": "gambling site named jalwa games.",
       "image": "/api/placeholder/400/250",
       "technologies": ["Flutter", "Firebase", "TensorFlow", "WebRTC"],
       "demo": "https://spiderXjalwa.netlify.app",
@@ -55,23 +56,23 @@ const applicationData = {
       "title": "Premium Landing Pages",
       "description": "High-converting landing pages with modern design and optimization",
       "features": ["Responsive Design", "SEO Optimization", "Analytics Integration", "A/B Testing"],
-      "price": "$1,299",
+      "price": "Cheap ",
       "timeline": "5-7 days",
       "popular": false
     },
     {
-      "title": "Mobile App Development",
+      "title": "Premium Landing Pages",
       "description": "Cross-platform mobile applications with native performance",
       "features": ["iOS & Android", "Cloud Integration", "Push Notifications", "App Store Deployment"],
-      "price": "$4,999",
+      "price": "Cheap ",
       "timeline": "4-6 weeks",
       "popular": true
     },
     {
-      "title": "Full-Stack Web Apps",
+      "title": "Premium Landing Pages",
       "description": "Complete web applications with backend and database",
       "features": ["Custom Backend", "Database Design", "API Development", "Deployment & Hosting"],
-      "price": "$3,499",
+      "price": "Cheap ",
       "timeline": "3-4 weeks",
       "popular": false
     }
