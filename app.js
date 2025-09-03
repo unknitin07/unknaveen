@@ -1,12 +1,12 @@
 // Application Data
 const applicationData = {
   "developer": {
-    "name": "Alex Chen",
+    "name": "Unk Naveen",
     "title": "Full Stack Developer",
     "tagline": "Creating seamless digital experiences with modern technology",
     "bio": "Passionate developer specializing in mobile applications and modern web technologies. I create efficient, scalable solutions that combine functionality with exceptional user experience.",
-    "location": "San Francisco, CA",
-    "experience": "5+ years"
+    "location": "Anonymous , CA",
+    "experience": "3+ years"
   },
   "skills": [
     { "name": "React/Next.js", "level": 95, "category": "Frontend" },
@@ -90,34 +90,34 @@ const applicationData = {
   ],
   "telegramChannels": [
     {
-      "name": "Dev Insights",
-      "username": "@dev_insights_channel",
-      "link": "https://t.me/dev_insights_channel",
-      "description": "Daily development tips, tutorials, and industry insights",
-      "subscribers": "12.5K",
+      "name": "𝐔ɴᴋ 𝐍ᴇᴛᴡᴏʀᴋ",
+      "username": "@unknaveen",
+      "link": "https://t.me/+QjgMDPoACGZjYjZl",
+      "description": "Daily Advance agents, data tutorials, and how to chat",
+      "subscribers": "600",
       "category": "Education"
     },
     {
-      "name": "Tech Updates",
-      "username": "@tech_updates_hub",
-      "link": "https://t.me/tech_updates_hub",
-      "description": "Latest technology news, framework updates, and tool reviews",
-      "subscribers": "8.2K",
+      "name": "ɴᴀᴠᴇᴇɴ ꜱʟᴏᴛꜱ ᴄʜᴀɴɴᴇʟ 🚩",
+      "username": "@unknaveen",
+      "link": "https://t.me/+2rP9ZBmswR5lMGY1",
+      "description": "daily trusted slots, usdt selling & buying, and free rc slots",
+      "subscribers": "500",
       "category": "News"
     },
     {
-      "name": "Project Showcase",
-      "username": "@project_showcase",
-      "link": "https://t.me/project_showcase",
-      "description": "Exclusive behind-the-scenes content and project development updates",
-      "subscribers": "5.7K",
+      "name": "𝐓ᴇʟᴇɢʀᴀᴍ 𝐒ᴛᴜᴅʏ 𝐌ᴀᴛᴇʀɪᴀʟꜱ 🚩🚩",
+      "username": "@unknaveen",
+      "link": "https://t.me/+hXpr2g87_lBlZTY1",
+      "description": "daily trusted slots, usdt selling & buying, and free rc slots",
+      "subscribers": "1k",
       "category": "Portfolio"
     }
   ],
   "contact": {
-    "telegram": "@alexchen_dev",
-    "email": "hello@alexchen.dev",
-    "phone": "+1 (555) 123-4567",
+    "telegram": "@unknaveen",
+    "email": "noemailfornow",
+    "phone": "nonumberfornow",
     "timezone": "PST (UTC-8)"
   }
 };
