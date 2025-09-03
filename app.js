@@ -31,33 +31,22 @@ const applicationData = {
     },
     {
       "id": 2,
-      "title": "FinanceFlow Dashboard",
+      "title": "in 999",
       "description": "Real-time financial analytics platform with advanced data visualization and automated reporting.",
       "image": "/api/placeholder/400/250",
       "technologies": ["React", "D3.js", "Express.js", "PostgreSQL"],
-      "demo": "https://demo-link.com",
-      "category": "Web App",
+      "demo": "in9999.netlify.app",
+      "category": "Landing page",
       "featured": true
     },
     {
       "id": 3,
-      "title": "MindfulMoments Meditation",
+      "title": "jalwa game",
       "description": "Personalized meditation and mindfulness app with progress tracking and community support.",
       "image": "/api/placeholder/400/250",
       "technologies": ["Flutter", "Firebase", "TensorFlow", "WebRTC"],
-      "demo": "https://demo-link.com",
-      "downloadApk": "https://download-link.com/mindful.apk",
-      "category": "Mobile App",
-      "featured": false
-    },
-    {
-      "id": 4,
-      "title": "CodeReview Assistant",
-      "description": "AI-powered code review tool that provides intelligent suggestions and best practice recommendations.",
-      "image": "/api/placeholder/400/250",
-      "technologies": ["Python", "OpenAI API", "React", "Docker"],
-      "demo": "https://demo-link.com",
-      "category": "Developer Tool",
+      "demo": "spiderXjalwa.netlify.app",
+      "category": "Landing page",
       "featured": false
     }
   ],
