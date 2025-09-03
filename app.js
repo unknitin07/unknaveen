@@ -23,7 +23,7 @@ const applicationData = {
       "id": 1,
       "title": "Goa Game",
       "description": "Gambling site named goa games.",
-      "image": "<img src="/api/placeholder/400/250",
+      "image": "/api/placeholder/400/250",
       "technologies": ["React Native", "Node.js", "MongoDB", "AI/ML"],
       "demo": "https://goagamez.netlify.app/",
       "category": "Landing page",
