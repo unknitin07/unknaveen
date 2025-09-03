@@ -35,7 +35,7 @@ const applicationData = {
       "description": "Real-time financial analytics platform with advanced data visualization and automated reporting.",
       "image": "/api/placeholder/400/250",
       "technologies": ["React", "D3.js", "Express.js", "PostgreSQL"],
-      "demo": "in9999.netlify.app",
+      "demo": "https://in9999.netlify.app",
       "category": "Landing page",
       "featured": true
     },
