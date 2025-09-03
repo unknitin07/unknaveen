@@ -45,7 +45,7 @@ const applicationData = {
       "description": "Personalized meditation and mindfulness app with progress tracking and community support.",
       "image": "/api/placeholder/400/250",
       "technologies": ["Flutter", "Firebase", "TensorFlow", "WebRTC"],
-      "demo": "spiderXjalwa.netlify.app",
+      "demo": "https://spiderXjalwa.netlify.app",
       "category": "Landing page",
       "featured": false
     }
