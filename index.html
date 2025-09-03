@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="UNK NAVEEN - Full Stack Developer Portfolio">
+    <title>UNK NAVEEN - Web Dev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <div class="loading-text">Loading...</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">UNK<span class="logo-accent">NAVEEN</span></span>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="/" class="nav-link active" data-route="home">Home</a>
+                <a href="/about" class="nav-link" data-route="about">About</a>
+                <a href="/projects" class="nav-link" data-route="projects">Projects</a>
+                <a href="/services" class="nav-link" data-route="services">Services</a>
+                <a href="/telegram" class="nav-link" data-route="telegram">Telegram</a>
+                <a href="/contact" class="nav-link" data-route="contact">Contact</a>
+            </div>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Container -->
+    <main id="page-container" class="page-container">
+        <!-- Home Page -->
+        <div id="home-page" class="page active">
+            <section class="hero-section">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h1 class="hero-title animate-fade-up">
+                                UNK <span class="text-gradient">NAVEEN</span>
+                            </h1>
+                            <p class="hero-subtitle animate-fade-up delay-200">
+                                Creating seamless digital experiences with modern technology
+                            </p>
+                            <div class="hero-stats animate-fade-up delay-400">
+                                <div class="stat-item">
+                                    <span class="stat-number" data-count="5">0</span>
+                                    <span class="stat-label">Years Experience</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number" data-count="50">0</span>
+                                    <span class="stat-label">Projects Completed</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number" data-count="25">0</span>
+                                    <span class="stat-label">Happy Clients</span>
+                                </div>
+                            </div>
+                            <div class="hero-buttons animate-fade-up delay-600">
+                                <a href="/projects" class="btn btn--primary glow-hover" data-route="projects">
+                                    View Projects
+                                </a>
+                                <a href="/contact" class="btn btn--outline glow-hover" data-route="contact">
+                                    Get In Touch
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="hero-visual animate-fade-left">
+                            <div class="floating-card">
+                                <div class="card-glow"></div>
+                                <div class="code-snippet">
+                                    <div class="code-header">
+                                        <div class="code-dots">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                        <span class="code-title">developer.js</span>
+                                    </div>
+                                    <div class="code-content">
+                                        <div class="code-line">
+                                            <span class="code-keyword">const</span> 
+                                            <span class="code-variable">developer</span> 
+                                            <span class="code-operator">=</span> 
+                                            <span class="code-bracket">{</span>
+                                        </div>
+                                        <div class="code-line indent">
+                                            <span class="code-property">name</span><span class="code-operator">:</span> 
+                                            <span class="code-string">'UNK NAVEEN'</span><span class="code-operator">,</span>
+                                        </div>
+                                        <div class="code-line indent">
+                                            <span class="code-property">passion</span><span class="code-operator">:</span> 
+                                            <span class="code-string">'Building amazing apps'</span><span class="code-operator">,</span>
+                                        </div>
+                                        <div class="code-line indent">
+                                            <span class="code-property">status</span><span class="code-operator">:</span> 
+                                            <span class="code-string typing-animation" id="typing-status">'available'</span>
+                                        </div>
+                                        <div class="code-line">
+                                            <span class="code-bracket">}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="floating-elements">
+                                <div class="floating-icon" style="--delay: 0s">⚛️</div>
+                                <div class="floating-icon" style="--delay: 1s">📱</div>
+                                <div class="floating-icon" style="--delay: 2s">💻</div>
+                                <div class="floating-icon" style="--delay: 3s">🚀</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- About Page -->
+        <div id="about-page" class="page">
+            <section class="section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">About Me</h2>
+                        <p class="section-subtitle">Passionate developer specializing in mobile applications and modern web technologies</p>
+                    </div>
+                    
+                    <div class="about-content">
+                        <div class="about-text">
+                            <div class="card">
+                                <div class="card__body">
+                                    <h3>Professional Summary</h3>
+                                    <p>I create efficient, scalable solutions that combine functionality with exceptional user experience. Based in San Francisco, CA with 5+ years of experience in full-stack development.</p>
+                                    
+                                    <div class="contact-info">
+                                        <div class="contact-item">
+                                            <span class="contact-icon">📍</span>
+                                            <span>San Francisco, CA</span>
+                                        </div>
+                                        <div class="contact-item">
+                                            <span class="contact-icon">💼</span>
+                                            <span>5+ Years Experience</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skills-section">
+                            <h3>Technical Skills</h3>
+                            <div class="skills-grid">
+                                <div class="skill-category">
+                                    <h4>Frontend</h4>
+                                    <div class="skill-item">
+                                        <span class="skill-name">React/Next.js</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" style="width: 95%" data-level="95"></div>
+                                        </div>
+                                        <span class="skill-percentage">95%</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-category">
+                                    <h4>Backend</h4>
+                                    <div class="skill-item">
+                                        <span class="skill-name">Node.js</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" style="width: 92%" data-level="92"></div>
+                                        </div>
+                                        <span class="skill-percentage">92%</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-category">
+                                    <h4>Mobile</h4>
+                                    <div class="skill-item">
+                                        <span class="skill-name">React Native</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" style="width: 90%" data-level="90"></div>
+                                        </div>
+                                        <span class="skill-percentage">90%</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-category">
+                                    <h4>Languages</h4>
+                                    <div class="skill-item">
+                                        <span class="skill-name">TypeScript</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" style="width: 88%" data-level="88"></div>
+                                        </div>
+                                        <span class="skill-percentage">88%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Projects Page -->
+        <div id="projects-page" class="page">
+            <section class="section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Projects</h2>
+                        <p class="section-subtitle">Featured work and applications</p>
+                    </div>
+                    
+                    <div class="projects-filter">
+                        <button class="filter-btn active" data-filter="all">All Projects</button>
+                        <button class="filter-btn" data-filter="Mobile App">Mobile Apps</button>
+                        <button class="filter-btn" data-filter="Web App">Web Apps</button>
+                        <button class="filter-btn" data-filter="Developer Tool">Tools</button>
+                    </div>
+                    
+                    <div class="projects-grid" id="projects-grid">
+                        <!-- Projects will be populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Services Page -->
+        <div id="services-page" class="page">
+            <section class="section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Services</h2>
+                        <p class="section-subtitle">Professional development services</p>
+                    </div>
+                    
+                    <div class="services-grid" id="services-grid">
+                        <!-- Services will be populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Telegram Page -->
+        <div id="telegram-page" class="page">
+            <section class="section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Telegram Channels</h2>
+                        <p class="section-subtitle">Connect and stay updated</p>
+                    </div>
+                    
+                    <div class="telegram-intro">
+                        <div class="card">
+                            <div class="card__body">
+                                <h3>Direct Contact</h3>
+                                <p>Get in touch directly via Telegram for quick communication and updates.</p>
+                                <a href="https://t.me/UNKNAVEEN_dev" class="btn btn--primary" target="_blank">
+                                    Message @UNKNAVEEN_dev
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="channels-grid" id="channels-grid">
+                        <!-- Channels will be populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Contact Page -->
+        <div id="contact-page" class="page">
+            <section class="section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Contact</h2>
+                        <p class="section-subtitle">Let's discuss your next project</p>
+                    </div>
+                    
+                    <div class="contact-content">
+                        <div class="contact-info">
+                            <div class="card">
+                                <div class="card__body">
+                                    <h3>Get In Touch</h3>
+                                    <p>Ready to start your next project? Let's connect and bring your ideas to life.</p>
+                                    
+                                    <div class="contact-methods">
+                                        <a href="https://t.me/UNKNAVEEN_dev" class="contact-method" target="_blank">
+                                            <div class="method-icon">📱</div>
+                                            <div class="method-info">
+                                                <h4>Telegram</h4>
+                                                <span>@UNKNAVEEN_dev</span>
+                                            </div>
+                                        </a>
+                                        
+                                        <a href="mailto:hello@UNKNAVEEN.dev" class="contact-method">
+                                            <div class="method-icon">✉️</div>
+                                            <div class="method-info">
+                                                <h4>Email</h4>
+                                                <span>hello@UNKNAVEEN.dev</span>
+                                            </div>
+                                        </a>
+                                        
+                                        <a href="tel:+15551234567" class="contact-method">
+                                            <div class="method-icon">📞</div>
+                                            <div class="method-info">
+                                                <h4>Phone</h4>
+                                                <span>+1 (555) 123-4567</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    
+                                    <div class="availability">
+                                        <span class="status-indicator"></span>
+                                        <span>Available for new projects</span>
+                                        <small>PST (UTC-8)</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-form-container">
+                            <form id="contact-form" class="contact-form">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" id="name" name="name" class="form-control" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" id="email" name="email" class="form-control" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <input type="text" id="subject" name="subject" class="form-control" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                                </div>
+                                
+                                <button type="submit" class="btn btn--primary btn--full-width" id="submit-btn">
+                                    <span class="btn-text">Send Message</span>
+                                    <div class="btn-loader hidden">
+                                        <div class="loading-spinner small"></div>
+                                    </div>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" class="scroll-top-btn" aria-label="Scroll to top">
+        <span>↑</span>
+    </button>
+
+    <!-- Floating Particles -->
+    <div id="floating-particles" class="floating-particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
